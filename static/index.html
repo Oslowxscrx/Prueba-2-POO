@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATOS UWU</title>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="/static/main.css">
+
+</head>
+
+<body class="bg-dark text-white">
+
+    <div class="container">
+        <div class="col-md-4 offset-md-4">
+            <br>
+            <center><h1>GATOS UWU ON</h1></center>
+            <center><img src="/static/img/gato.jpg" alt="" width="200" height="200"></center>
+            <hr>
+            <form  id="userForm" class="card card-body text-white " style="background-color: rgb(184, 139, 180);" >
+                <label for="username">Raza</label>
+                <input type="text" name="raza" placeholder="Raza" class="form-control mb-2" required>
+                <br>
+                <label for="username">Edad</label>
+                <input type="numeric" name="edad" placeholder="edad del gato" class="form-control mb-2" required>
+                <br>
+                <label for="username">Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre del gato" class="form-control mb-2" required>
+                <br>
+                <label for="username">Dueño</label>
+                <input type="text" name="duenio" placeholder="Nombre del duenio" class="form-control mb-2" required>
+                <br>
+                <label for="username">Dirección</label>
+                <input type="text" name="direccion" placeholder="Dirección" class="form-control mb-2" required>
+                <br>
+                <label for="username">Número</label>
+                <input type="numeric" name="numero" placeholder="Numero celular" class="form-control mb-2" required>
+                <br>
+                <button class="btn btn-primary">Save</button>
+            </form>
+            <br>
+
+            <ul id="userList" class="list-group">
+
+            </ul>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="/static/main.js"></script>
+</body>
+
+</html>
